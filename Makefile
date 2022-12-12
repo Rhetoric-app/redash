@@ -55,3 +55,6 @@ redis-cli:
 
 bash:
 	docker-compose run --rm server bash
+
+deploy-production:
+	git push redash-production rhe-develop:main
